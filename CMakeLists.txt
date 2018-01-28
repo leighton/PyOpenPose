@@ -51,12 +51,12 @@ find_package(OpenCV 3 REQUIRED)
 find_package(Doxygen)
 
 ### for python 2 use this:
-find_package(Boost COMPONENTS system python-py27 REQUIRED)
-find_package(PythonLibs 2.7 EXACT REQUIRED) 
+# find_package(Boost COMPONENTS system python-py27 REQUIRED)
+# find_package(PythonLibs 2.7 EXACT REQUIRED) 
 
 ### for python 3 use this:
-#find_package(Boost COMPONENTS system python-py35 REQUIRED)
-#find_package(PythonLibs 3 EXACT REQUIRED) 
+find_package(Boost COMPONENTS system python-py35 REQUIRED)
+find_package(PythonLibs 3 EXACT REQUIRED) 
 
 
 
